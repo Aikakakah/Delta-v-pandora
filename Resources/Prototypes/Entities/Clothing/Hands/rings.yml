@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGoldRing
+  name: gold ring
+  description: Just a simple gold ring.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/Rings/gold.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/Rings/gold.rsi
