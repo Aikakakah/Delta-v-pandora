@@ -6,5 +6,9 @@
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Rings/gold.rsi
+    -state: icon
   - type: Clothing
     sprite: Clothing/Hands/Gloves/Rings/gold.rsi
+    clothingVisuals:
+      gloves:
+      -state: equipped-HAND
