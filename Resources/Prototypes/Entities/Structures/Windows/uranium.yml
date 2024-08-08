@@ -62,10 +62,17 @@
     - Window
   components:
   - type: Sprite
+<<<<<<< HEAD
     sprite: Structures/Windows/directional.rsi 
     state: uranium_window
   - type: Icon
     sprite: Structures/Windows/directional.rsi 
+=======
+    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
+    state: uranium_window
+  - type: Icon
+    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
+>>>>>>> parent of e5d7534690 (Revert "Wall, Airlocks and Tile resprites (#1470)")
     state: uranium_window
   - type: Construction
     graph: WindowDirectional
