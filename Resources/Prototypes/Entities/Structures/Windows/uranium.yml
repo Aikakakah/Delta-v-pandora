@@ -107,14 +107,14 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/uranium_window_diagonal.rsi
+    sprite: DeltaV/Structures/Windows/uranium_window_diagonal.rsi
     state: state0
   - type: IconSmooth
     mode: Diagonal
     key: windows
     base: state
   - type: Icon
-    sprite: Structures/Windows/uranium_window_diagonal.rsi
+    sprite: DeltaV/Structures/Windows/uranium_window_diagonal.rsi
     state: state0
   - type: Fixtures
     fixtures:
