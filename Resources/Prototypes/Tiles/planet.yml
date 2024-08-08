@@ -84,6 +84,36 @@
   weather: true
   indestructible: true
 
+# WildGrass
+- type: tile
+  id: FloorPlanetWildGrass
+  name: tiles-wildgrass-planet-floor
+  sprite: /Textures/Tiles/Planet/WildGrass/wildgrass.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  edgeSpritePriority: 1
+  edgeSprites:
+    SouthEast: /Textures/Tiles/Planet/WildGrass/single_edge.png
+    NorthEast: /Textures/Tiles/Planet/WildGrass/single_edge.png
+    NorthWest: /Textures/Tiles/Planet/WildGrass/single_edge.png
+    SouthWest: /Textures/Tiles/Planet/WildGrass/single_edge.png
+    South: /Textures/Tiles/Planet/WildGrass/double_edge.png
+    East: /Textures/Tiles/Planet/WildGrass/double_edge.png
+    North: /Textures/Tiles/Planet/WildGrass/double_edge.png
+    West: /Textures/Tiles/Planet/WildGrass/double_edge.png
+  baseTurf: FloorPlanetDirt
+  isSubfloor: true
+  footstepSounds:
+    collection: FootstepGrass
+  itemDrop: FloorTileItemGrass
+  heatCapacity: 10000
+  weather: true
+  indestructible: true
+
 # Lava
 - type: tile
   id: FloorBasalt
