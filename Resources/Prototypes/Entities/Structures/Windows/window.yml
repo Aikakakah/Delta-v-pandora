@@ -72,7 +72,7 @@
         acts: [ "Destruction" ]
   - type: Airtight
   - type: IconSmooth
-    key: walls # Delta V - Make windows iconsmooth with walls
+    key: windows
     base: window
   - type: InteractionPopup
     interactSuccessString: comp-window-knock
@@ -123,10 +123,10 @@
         collection: GlassSmack
   - type: Sprite
     drawdepth: Mobs
-    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
+    sprite: Structures/Windows/directional.rsi
     state: window
   - type: Icon
-    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
+    sprite: Structures/Windows/directional.rsi
     state: window
   - type: InteractionPopup
     interactSuccessString: comp-window-knock
@@ -216,10 +216,10 @@
     - Window
   components:
   - type: Sprite
-    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
+    sprite: Structures/Windows/directional.rsi
     state: frosted_window
   - type: Icon
-    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
+    sprite: Structures/Windows/directional.rsi
     state: frosted_window
 
 - type: entity
