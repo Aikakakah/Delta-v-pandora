@@ -43,7 +43,8 @@
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.001
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
   - type: FireProtection
     reduction: 0.8
   - type: ExplosionResistance
@@ -182,7 +183,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: TemperatureProtection
-    coefficient: 0.001
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitMaxim
 
@@ -401,6 +403,7 @@
     tags:
     - WhitelistChameleon
     - HighRiskItem
+    - HidesHarpyWings #DeltaV: Couldn't see the wings for their species-specific sprite because of a lack of this.
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitRd
   - type: StaticPrice
@@ -514,6 +517,7 @@
     - MonkeyWearable
     - Hardsuit
     - WhitelistChameleon
+    - HidesHarpyWings
 
 # Syndicate Medic Hardsuit
 - type: entity
@@ -532,6 +536,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+    - HidesHarpyWings
 
 #Syndicate Elite Hardsuit
 - type: entity
@@ -548,7 +553,8 @@
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.001
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: FireProtection
@@ -841,6 +847,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+    - HidesHarpyWings #DeltaV - Harpy ERT hardsuits
 
 #ERT Janitor Hardsuit
 - type: entity
@@ -871,7 +878,8 @@
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.001
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: FireProtection
@@ -907,7 +915,8 @@
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.001
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
   - type: ExplosionResistance
     damageCoefficient: 0.7
   - type: Armor
